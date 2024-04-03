@@ -9,6 +9,8 @@ struct ListNode {
 class Solution {
 public:
     ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
-        while(li->*next != nullptr && l2->*next)
+        while(l1->next != nullptr || l2->next != nullptr){
+            
+        }
     }
 };
