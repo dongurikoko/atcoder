@@ -2,8 +2,8 @@
 using namespace std;
  
 int w[109],v[109];
- long long dp[109][100009];
- 
+long long dp[109][100009];
+
 int main() {
     long long N,W;
     cin >> N >> W;
