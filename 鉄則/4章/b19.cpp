@@ -21,7 +21,7 @@ int main() {
     dp[0][0] = 0;
     for(int i=1;i<=N;i++){
         for(int j=0;j<=100009;j++){
-            if(j>= v[i]){
+            if(j >= v[i]){
                 dp[i][j] = min(dp[i-1][j],dp[i-1][j-v[i]]+w[i]);
             }
             else{
